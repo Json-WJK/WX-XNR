@@ -1,0 +1,105 @@
+{
+    "extEnable": true,
+    "extAppid": "",
+    "directCommit": false,
+    "ext": {
+        "config": [
+            {
+                "name": "label",
+                "label": "广告"
+            },
+            {
+                "name": "ad",
+                "url": "xxx",
+                "image": "xxx"
+            },
+            {
+                "name": "label",
+                "label": "轮播图"
+            },
+            {
+                "name": "swiper",
+                "imgs": [
+                    {
+                        "url": "//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400"
+                    },
+                    {
+                        "url": "//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400"
+                    },
+                    {
+                        "url": "//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400"
+                    }
+                ],
+                "number": 5,
+                "indicator-dots": true,
+                "indicator-color": "rgba(0,0,0,0.3)",
+                "indicator-active-color": "red",
+                "autoplay": true,
+                "duration": 2000,
+                "interval": 3000,
+                "circular": true,
+                "height": 200
+            },
+
+            {
+                "name": "label",
+                "label": "列表"
+            },
+            {
+                "name": "list",
+                "url": "xxx"
+            },
+            {
+                "name": "label",
+                "label": "再加一个广告"
+            },
+            {
+                "name": "ad",
+                "url": "xxx",
+                "image": "xxx"
+            },
+            {
+                "name": "label",
+                "label": "第二个轮播图"
+            },
+            {
+                "name": "swiper",
+                "imgs": [
+                    {
+                        "url": "//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400"
+                    },
+                    {
+                        "url": "//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400"
+                    },
+                    {
+                        "url": "//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400"
+                    }
+                ],
+                "number": 5,
+                "indicator-dots": true,
+                "indicator-color": "rgba(0,0,0,0.3)",
+                "indicator-active-color": "red",
+                "autoplay": true,
+                "duration": 2000,
+                "interval": 3000,
+                "circular": true,
+                "height": 200
+            }
+        ]
+    },
+    "extPages": {
+        "pages/logs": {
+            "navigationBarTitleText": "logs"
+        }
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Demo",
+        "navigationBarTextStyle": "black"
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    }
+}
